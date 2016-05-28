@@ -28,9 +28,9 @@ how well the probabilistic predictions of different classifiers are calibrated:
 
 .. currentmodule:: sklearn.linear_model
 
-:class:`LogisticRegression` returns well calibrated predictions by default as it directly
-optimizes log-loss. In contrast, the other methods return biased probabilities;
-with different biases per method:
+*  :class:`LogisticRegression` returns well calibrated predictions by default as it directly
+   optimizes log-loss. In contrast, the other methods return biased probabilities;
+   with different biases per method:
 
 .. currentmodule:: sklearn.naive_bayes
 
